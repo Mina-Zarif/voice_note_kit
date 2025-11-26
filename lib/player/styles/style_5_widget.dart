@@ -141,8 +141,7 @@ class StyleFiveWidget extends StatelessWidget {
                       waveform: waveformData,
                       textDirection: widget.textDirection,
                       progress: progress,
-                      inactiveColor: widget.progressBarBackgroundColor
-                          .withAlpha((0.1 * 255).round()),
+                      inactiveColor: widget.progressBarBackgroundColor.withValues(alpha: 0.3),
                       activeColor: widget.progressBarBackgroundColor,
                       onSeek: seekTo,
                     ),
