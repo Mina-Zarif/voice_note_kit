@@ -58,8 +58,10 @@ class SpeedButton extends StatelessWidget {
           // Display the current playback speed (e.g., '1.0x', '1.5x')
           '${currentSpeed}x',
           style: TextStyle(
-              color: iconColor,
-              fontSize: 14), // Text style with icon color and font size
+            color: iconColor,
+            fontSize: 12,
+            fontWeight: FontWeight.w500,
+          ), // Text style with icon color and font size
         ),
       ),
     );
